@@ -75,7 +75,7 @@ class App extends Component {
 
   onButtonSubmit = () => {
     this.setState({ imageUrl: this.state.input });
-    fetch('https://mighty-sands-89928.herokuapp.com/imageurl', {
+    fetch('https://face-recognition-url-app-api.herokuapp.com/imageurl', {
       method: 'post',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -85,7 +85,7 @@ class App extends Component {
       .then((response) => response.json())
       .then((response) => {
         if (response) {
-          fetch('https://mighty-sands-89928.herokuapp.com/image', {
+          fetch('https://face-recognition-url-app-api.herokuapp.com/image', {
             method: 'put',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({

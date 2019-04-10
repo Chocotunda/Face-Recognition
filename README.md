@@ -10,7 +10,7 @@ Click [here](https://face-recognition-url-app.herokuapp.com/) to view the websit
 ![Apr-10-2019 19-50-31](https://user-images.githubusercontent.com/45598278/55901628-fa747100-5bc9-11e9-91eb-e86d5b43e5f0.gif)
 
 ## Resources:
-- React
+- Create-react-app
 - React-particles-js
 - React-Tilt
 - Tachyons

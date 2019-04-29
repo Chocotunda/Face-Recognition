@@ -3,7 +3,7 @@
 A Full-stack app that uses the [Clarifai API](https://clarifai.com/) to recognize a face on an image. Users can register and log in. Passwords are hashed with Bcrypt and stored using PostgreSQL. Insert an image url and press detect to find the face on the image. The app keeps track of the number of entries of each user.
 
 
-The app is deployed using Heroku and uses the [Face-Recognition-API](https://github.com/Chocotunda/Face-Recognition-API/tree/master) wich is also deployed using Heroku.
+The app is deployed using Heroku and uses my [Face-Recognition-API](https://github.com/Chocotunda/Face-Recognition-API/tree/master) wich is also deployed using Heroku.
 
 Click [here](https://face-recognition-url-app.herokuapp.com/) to view the website
 
